@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Analizador CSV</title>
+    <link href="global.css" rel="stylesheet" type="text/css">
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="csv.js"></script>
+  </head>
+  <body>
+    <h1>Practica 2: Comma Separated Values (CSV)</h1>
+    <h2>Ejecucion:</h2>
+    <h3><ol> 
+	  <li>Escriba un texto CSV.
+	  <li>Haga click en el botón "Convertir".
+	  <li>El programa mostrará una tabla con el resultado obtenido de la conversión.
+	 </ol></h3>
+    
+    Texto en CSV:
+    <br>
+    <textarea required autofocus cols = "80" rows = "5" id="original"></textarea>
+    <br>
+    <button type="button">Convertir</button><br><br><br>
+    <span class="output" id="finaltable"></span>
+    <span class="output" id="err"></span>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+html *
+
+{
+  font-family: "Times New Roman"
+}
+
+h1            { text-align: center; font-weight: bold; }
+h2	      { font-weight: lighter; text-decoration: underline; }
+h3, th	      { font-weight: lighter; }
+
+#finaltable:hover td { background-color: #A9A9F5; } 
+tr:nth-child(1)      { background-color:none; }
+tr:nth-child(n+2)    { background-color:#00FF66; }
+input        { text-align: right;  border: none; }     /* Align input to the right  */
+textarea     { border: inset; border-color: #BFFF00; }                        
+table        { border: inset; border-color: white; background-color: white; }
+table.right  { margin-left:auto; margin-right:auto; }
+#result      { border-color: #BFFF00; }
+tr.error     { background-color: red; }
+body
+{
+ background-color:#F3E2A9;
+}
